@@ -8,8 +8,9 @@ for i in range(n):
     else:
         if a[i]%2==0:
             b.append(a[i])
-for j in b:
-    if j!=b[-1]:
-        print(j,end=' ')
+x=len(b)
+for j in range(x):
+    if j!=x-1:
+        print(b[j],end=' ')
     else:
-        print(j)
+        print(b[j])
