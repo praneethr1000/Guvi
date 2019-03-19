@@ -1,8 +1,8 @@
 #praneeth
 a=input()
-if int(a)%2==0:
+if int(a)%2==0 && int(a)>0:
     print("Even")
-elif int(a)%2!=0:
+elif int(a)%2!=0 && int(a)>0:
     print("Odd")
 else:
     print("invalid")
