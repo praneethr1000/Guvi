@@ -1,4 +1,4 @@
-#praneeth
+#praneeth reddy
 n=int(input())
 a=list(map(int,input().split()))
 b=[]
@@ -12,4 +12,8 @@ d=set(c)
 e=list(d)
 e.sort()
 for i in e:
-    print(i,end=' ')
+    if i!=e[-1]:
+        print(i,end=' ')
+    else:
+        print(i)
+
