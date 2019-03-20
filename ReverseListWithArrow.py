@@ -5,4 +5,4 @@ for i in range(n):
     if i!=n-1:
         print(b[i],end='->')
     else:
-        print(b[i])
+        print(b[i],end='')
