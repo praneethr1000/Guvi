@@ -7,6 +7,6 @@ for i in range(N):
 a.sort()
 for y in range(len(a)):
     if y!=len(a):
-        print(a[y],end=' ')
+        print(a[y]-1,end=' ')
     else:
         print(a[y],end='')
